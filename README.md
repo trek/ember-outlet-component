@@ -56,7 +56,7 @@ Since you still need controllers for query params use in Ember, you might wonder
 No worries! `OutletComponent` has you covered in two ways:
 
 1. Simply [enable the `ember-routing-route-configured-query-params` feature](https://github.com/emberjs/ember.js/blob/bc78f0c6c2a3c05ef9f11e2de3736f4dc5568f5d/features.json#L5) (I bet you didn't even know that existed? We created it when we killed controllers.)
-1. If you can't Live On The Edge(tm), don't worry: `OutletComponent` fully implements the query parameter interface of the old `Controller` objects!
+1. If you can't Live On The Edge™, don't worry: `OutletComponent` fully implements the query parameter interface of the old `Controller` objects!
 
     ```
     import OutletComponent from "outlet-component";
