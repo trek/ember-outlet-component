@@ -1,7 +1,7 @@
 {
-  "name": "outlet-component",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "ember-outlet-component",
+  "version": "4.1.8",
+  "description": "Controllers are dead. Use Components",
   "directories": {
     "doc": "doc",
     "test": "tests"
