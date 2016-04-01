@@ -12,11 +12,11 @@ ember install ember-outlet-component
 
 `OutletComponent` provides a top-level routable component that lets you avoid Controllers at all costs.
 
-An `OutletComponent` behaves identically to a `Component` with our main differneces:
+An `OutletComponent` behaves identically to a `Component` with these main differences:
 
   1. An `OutletComponent` has no element (because, what would the tag name for an outlet even be?!?).
   2. Because of the previous point, an `OutletComponent` has no DOM events.
-  3. Because of the point two points of ago, it has no lifecycle callebacks like `didInsertElement`
+  3. Because of the point two points ago, it has no lifecycle callbacks like `didInsertElement`
 
 To use `OutletComponent` you'll need to make sure your application is using the resolver provided by `ember-outlet-component`:
 
